@@ -69,6 +69,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Core Domain & Game Engine | 0/TBD | Not started | - |
+| 1. Core Domain & Game Engine | 0/3 | Ready to execute | - |
 | 2. Visual Grid & Feedback | 0/TBD | Not started | - |
 | 3. Input & Keyboard Interface | 0/TBD | Not started | - |
