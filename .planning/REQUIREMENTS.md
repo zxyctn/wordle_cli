@@ -91,13 +91,35 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (To be filled by roadmapper) | | |
+| GAME-01 | Phase 1 | Pending |
+| GAME-02 | Phase 2 | Pending |
+| GAME-03 | Phase 3 | Pending |
+| GAME-04 | Phase 3 | Pending |
+| GAME-05 | Phase 1 | Pending |
+| GAME-06 | Phase 1 | Pending |
+| GAME-07 | Phase 1 | Pending |
+| GAME-08 | Phase 1 | Pending |
+| VIS-01 | Phase 2 | Pending |
+| VIS-02 | Phase 2 | Pending |
+| VIS-03 | Phase 2 | Pending |
+| VIS-04 | Phase 2 | Pending |
+| VIS-05 | Phase 2 | Pending |
+| VIS-06 | Phase 2 | Pending |
+| KEY-01 | Phase 3 | Pending |
+| KEY-02 | Phase 3 | Pending |
+| KEY-03 | Phase 3 | Pending |
+| KEY-04 | Phase 3 | Pending |
+| KEY-05 | Phase 3 | Pending |
+| LOGIC-01 | Phase 1 | Pending |
+| LOGIC-02 | Phase 1 | Pending |
+| LOGIC-03 | Phase 1 | Pending |
+| LOGIC-04 | Phase 1 | Pending |
 
 **Coverage:**
 - v1 requirements: 19 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 19 ⚠️
+- Mapped to phases: 19 ✓
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2025-03-14*
-*Last updated: 2025-03-14 after initial definition*
+*Last updated: 2026-03-14 after roadmap creation*
