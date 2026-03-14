@@ -37,10 +37,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Game Logic
 
-- [ ] **LOGIC-01**: Correctly handles duplicate letters in guesses
-- [ ] **LOGIC-02**: Correctly handles duplicate letters in target word
+- [x] **LOGIC-01**: Correctly handles duplicate letters in guesses
+- [x] **LOGIC-02**: Correctly handles duplicate letters in target word
 - [x] **LOGIC-03**: Letter status priority: green > yellow > gray
-- [ ] **LOGIC-04**: Multiple instances of same letter get independent evaluation
+- [x] **LOGIC-04**: Multiple instances of same letter get independent evaluation
 
 ## v2 Requirements
 
@@ -110,10 +110,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | KEY-03 | Phase 3 | Pending |
 | KEY-04 | Phase 3 | Pending |
 | KEY-05 | Phase 3 | Pending |
-| LOGIC-01 | Phase 1 | Pending |
-| LOGIC-02 | Phase 1 | Pending |
+| LOGIC-01 | Phase 1 | Complete |
+| LOGIC-02 | Phase 1 | Complete |
 | LOGIC-03 | Phase 1 | Complete |
-| LOGIC-04 | Phase 1 | Pending |
+| LOGIC-04 | Phase 1 | Complete |
 
 **Coverage:**
 - v1 requirements: 19 total
