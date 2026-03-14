@@ -9,14 +9,14 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Core Gameplay
 
-- [ ] **GAME-01**: Game selects random 5-letter word from words.py at start
+- [x] **GAME-01**: Game selects random 5-letter word from words.py at start
 - [ ] **GAME-02**: Game displays 5x6 grid of cells for letter guesses
 - [ ] **GAME-03**: Game allows player to enter up to 5 letters per guess
 - [ ] **GAME-04**: Game prevents entering more than 5 letters per guess
-- [ ] **GAME-05**: Game validates guess against words.py dictionary before accepting
+- [x] **GAME-05**: Game validates guess against words.py dictionary before accepting
 - [ ] **GAME-06**: Game rejects invalid (non-dictionary) words
-- [ ] **GAME-07**: Game tracks remaining attempts (6 total)
-- [ ] **GAME-08**: Game ends when correct word guessed or 6 attempts exhausted
+- [x] **GAME-07**: Game tracks remaining attempts (6 total)
+- [x] **GAME-08**: Game ends when correct word guessed or 6 attempts exhausted
 
 ### Visual Feedback
 
@@ -39,7 +39,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [ ] **LOGIC-01**: Correctly handles duplicate letters in guesses
 - [ ] **LOGIC-02**: Correctly handles duplicate letters in target word
-- [ ] **LOGIC-03**: Letter status priority: green > yellow > gray
+- [x] **LOGIC-03**: Letter status priority: green > yellow > gray
 - [ ] **LOGIC-04**: Multiple instances of same letter get independent evaluation
 
 ## v2 Requirements
@@ -91,14 +91,14 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| GAME-01 | Phase 1 | Pending |
+| GAME-01 | Phase 1 | Complete |
 | GAME-02 | Phase 2 | Pending |
 | GAME-03 | Phase 3 | Pending |
 | GAME-04 | Phase 3 | Pending |
-| GAME-05 | Phase 1 | Pending |
+| GAME-05 | Phase 1 | Complete |
 | GAME-06 | Phase 1 | Pending |
-| GAME-07 | Phase 1 | Pending |
-| GAME-08 | Phase 1 | Pending |
+| GAME-07 | Phase 1 | Complete |
+| GAME-08 | Phase 1 | Complete |
 | VIS-01 | Phase 2 | Pending |
 | VIS-02 | Phase 2 | Pending |
 | VIS-03 | Phase 2 | Pending |
@@ -112,7 +112,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | KEY-05 | Phase 3 | Pending |
 | LOGIC-01 | Phase 1 | Pending |
 | LOGIC-02 | Phase 1 | Pending |
-| LOGIC-03 | Phase 1 | Pending |
+| LOGIC-03 | Phase 1 | Complete |
 | LOGIC-04 | Phase 1 | Pending |
 
 **Coverage:**
