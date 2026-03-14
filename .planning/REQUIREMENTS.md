@@ -14,7 +14,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **GAME-03**: Game allows player to enter up to 5 letters per guess
 - [ ] **GAME-04**: Game prevents entering more than 5 letters per guess
 - [x] **GAME-05**: Game validates guess against words.py dictionary before accepting
-- [ ] **GAME-06**: Game rejects invalid (non-dictionary) words
+- [x] **GAME-06**: Game rejects invalid (non-dictionary) words
 - [x] **GAME-07**: Game tracks remaining attempts (6 total)
 - [x] **GAME-08**: Game ends when correct word guessed or 6 attempts exhausted
 
@@ -96,7 +96,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | GAME-03 | Phase 3 | Pending |
 | GAME-04 | Phase 3 | Pending |
 | GAME-05 | Phase 1 | Complete |
-| GAME-06 | Phase 1 | Pending |
+| GAME-06 | Phase 1 | Complete |
 | GAME-07 | Phase 1 | Complete |
 | GAME-08 | Phase 1 | Complete |
 | VIS-01 | Phase 2 | Pending |
