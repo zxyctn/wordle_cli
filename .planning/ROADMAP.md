@@ -12,7 +12,7 @@ This roadmap delivers a terminal-based Wordle game through three focused phases.
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Core Domain & Game Engine** - Pure game logic with word validation and duplicate letter handling
+- [x] **Phase 1: Core Domain & Game Engine** - Pure game logic with word validation and duplicate letter handling (completed 2026-03-14)
 - [ ] **Phase 2: Visual Grid & Feedback** - 5x6 grid display with color-coded letter feedback
 - [ ] **Phase 3: Input & Keyboard Interface** - Player input controls and on-screen keyboard with feedback
 
@@ -69,6 +69,6 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Core Domain & Game Engine | 0/3 | Ready to execute | - |
+| 1. Core Domain & Game Engine | 0/3 | Complete    | 2026-03-14 |
 | 2. Visual Grid & Feedback | 0/TBD | Not started | - |
 | 3. Input & Keyboard Interface | 0/TBD | Not started | - |
