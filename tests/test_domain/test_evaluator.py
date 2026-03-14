@@ -49,12 +49,12 @@ class TestGuessEvaluatorSimpleCases:
     def test_mixed_positions(self):
         """Test mixed correct, present, and absent letters.
         
-        DROWN vs WORLD:
-        - D: present (in WORLD at position 4)
-        - R: correct (position 1)
-        - O: correct (position 1)
-        - W: present (in WORLD at position 0)
-        - N: absent (not in WORLD)
+        DROWN vs WORLD (W-O-R-L-D):
+        - D (pos 0): present (in WORLD at position 4)
+        - R (pos 1): present (in WORLD at position 2)
+        - O (pos 2): present (in WORLD at position 1)
+        - W (pos 3): present (in WORLD at position 0)
+        - N (pos 4): absent (not in WORLD)
         """
         result = self.evaluator.evaluate("DROWN", "WORLD")
         
@@ -62,19 +62,20 @@ class TestGuessEvaluatorSimpleCases:
         assert result.is_correct is False
         assert len(result.letters) == 5
         
+        # All letters are in wrong positions (all PRESENT) or absent
         # D: present (in WORLD at position 4)
         assert result.letters[0].letter == "D"
         assert result.letters[0].status == LetterStatus.PRESENT
         assert result.letters[0].position == 0
         
-        # R: correct (position 1)
+        # R: present (in WORLD at position 2)
         assert result.letters[1].letter == "R"
-        assert result.letters[1].status == LetterStatus.CORRECT
+        assert result.letters[1].status == LetterStatus.PRESENT
         assert result.letters[1].position == 1
         
-        # O: correct (position 2)
+        # O: present (in WORLD at position 1)
         assert result.letters[2].letter == "O"
-        assert result.letters[2].status == LetterStatus.CORRECT
+        assert result.letters[2].status == LetterStatus.PRESENT
         assert result.letters[2].position == 2
         
         # W: present (in WORLD at position 0)
