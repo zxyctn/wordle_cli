@@ -1,0 +1,22 @@
+[project]
+name = "wordle-cli"
+version = "0.1.0"
+description = "A command-line Wordle game built with Textual"
+requires-python = ">=3.10"
+dependencies = [
+    "textual>=8.1.1",
+]
+
+[project.scripts]
+wordle-cli = "wordle_cli.__main__:main"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
