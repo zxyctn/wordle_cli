@@ -1,0 +1,121 @@
+/* Wordle CLI Styles - NYTimes Wordle Color Palette */
+
+/* Screen layout */
+Screen {
+    background: $surface;
+    layout: vertical;
+    align: center middle;
+}
+
+/* Grid widget - 5 columns, 6 rows */
+#grid {
+    grid-size: 5 6;
+    grid-gutter: 1 1;
+    padding: 1;
+    width: 46;
+    height: 31;
+}
+
+/* Base letter cell styling */
+.letter-cell {
+    width: 8;
+    height: 4;
+    content-align: center middle;
+    text-align: center;
+    text-style: bold;
+}
+
+/* Empty cell - light gray border, white text for input */
+.cell-empty {
+    border: heavy #3a3a3c;
+    background: $surface;
+    color: white;
+}
+
+/* Correct position - green border and letter */
+.cell-correct {
+    border: heavy #6aaa64 !important;
+    background: $surface !important;
+    color: #6aaa64 !important;
+}
+
+/* Present in word - yellow border and letter */
+.cell-present {
+    border: heavy #c9b458 !important;
+    background: $surface !important;
+    color: #c9b458 !important;
+}
+
+/* Not in word - gray border and letter */
+.cell-absent {
+    border: heavy #787c7e !important;
+    background: $surface !important;
+    color: #787c7e !important;
+}
+
+/* Keyboard widget */
+KeyboardWidget {
+    width: auto;
+    height: auto;
+    align: center middle;
+    padding: 1 0;
+}
+
+/* Keyboard rows */
+.keyboard-row {
+    width: auto;
+    height: auto;
+    align: center middle;
+}
+
+/* Keyboard keys */
+Button.key {
+    min-width: 5;
+    height: 3;
+    padding: 0 1;
+    margin: 0 1;
+    text-style: bold;
+}
+
+/* Special keys (ENTER, backspace) */
+Button.key-special {
+    min-width: 7;
+    background: $surface !important;
+    color: #d3d6da !important;
+    border: heavy #d3d6da !important;
+}
+
+/* Unused keys - default style */
+Button.key-unused {
+    background: $surface !important;
+    color: #d3d6da !important;
+    border: heavy #d3d6da !important;
+}
+
+/* Keys for absent letters - gray */
+Button.key-absent {
+    background: $surface !important;
+    color: #787c7e !important;
+    border: heavy #787c7e !important;
+}
+
+/* Keys for present letters - yellow */
+Button.key-present {
+    background: $surface !important;
+    color: #c9b458 !important;
+    border: heavy #c9b458 !important;
+}
+
+/* Keys for correct letters - green */
+Button.key-correct {
+    background: $surface !important;
+    color: #6aaa64 !important;
+    border: heavy #6aaa64 !important;
+}
+
+/* Horizontal container alignment */
+Horizontal {
+    width: auto;
+    height: auto;
+    align: center middle;
+}
