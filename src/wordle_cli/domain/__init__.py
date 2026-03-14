@@ -2,6 +2,8 @@
 
 from .models import GameState, GuessResult, LetterResult, LetterStatus
 from .ports import WordRepository
+from .evaluator import GuessEvaluator
+from .game_engine import GameEngine
 
 __all__ = [
     "LetterStatus",
@@ -9,4 +11,6 @@ __all__ = [
     "GuessResult",
     "GameState",
     "WordRepository",
+    "GuessEvaluator",
+    "GameEngine",
 ]
