@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "read": {
+      "/home/zxyctn/repos/wordle_cli/.opencode/get-shit-done/*": "allow"
+    },
+    "external_directory": {
+      "/home/zxyctn/repos/wordle_cli/.opencode/get-shit-done/*": "allow"
+    }
+  }
+}

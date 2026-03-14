@@ -6,7 +6,7 @@ random selection for reproducible testing.
 """
 
 import random
-from words import game_words
+from wordle_cli.words import game_words
 from src.wordle_cli.domain.ports import WordRepository
 
 
