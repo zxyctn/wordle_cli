@@ -42,10 +42,11 @@ Plans:
   2. Empty cells show light gray borders before being filled
   3. Submitted guess cells immediately show green (correct position), yellow (wrong position), or gray (not in word) backgrounds
   4. Visual design matches NYTimes Wordle aesthetic with proper colors, spacing, and grid structure
-**Plans**: TBD
+**Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] TBD
+- [ ] 02-01-PLAN.md — Textual app scaffold with styled LetterCell widgets
+- [ ] 02-02-PLAN.md — 5×6 grid display with GameEngine integration
 
 ### Phase 3: Input & Keyboard Interface
 **Goal**: Enable player input with visual keyboard that reflects tested letters
